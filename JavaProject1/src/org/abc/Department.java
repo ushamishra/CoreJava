@@ -11,6 +11,16 @@ public class Department {
 
     NonteachingStaff nonteachingStaffs[]  = new NonteachingStaff[3];
 
+    public Department(String name,int i){
+        this.departmentName = name;
+        this.noOfStaffs = i;
+
+    }
+
+    public Department(){
+        
+    }
+
     private class ExamSection {
 
         String result;
